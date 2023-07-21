@@ -10,7 +10,13 @@ Employee emp = new Employee("0001", "湊　雄介");
 <title>Insert title here</title>
 </head>
 <body>
-<%for(int i=0;i<10) %>
-<p>IDは<%=emp.getId()%>、名前は<%=emp.getName()%></p>
+<%for(int i=0;i<10;i++){ %>
+<%if(i%3 == 0){ %>
+		<p style="color:red;">
+	<%}else{ %>
+		<p>
+	<%} %>
+IDは<%=emp.getId() %>、名前は<%=emp.getName() %></p>
+<%} %>
 </body>
 </html>

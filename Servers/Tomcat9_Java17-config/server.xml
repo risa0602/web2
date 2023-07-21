@@ -153,7 +153,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="lesson" path="/lesson" reloadable="false" source="org.eclipse.jst.jee.server:lesson"/><Context docBase="flut" path="/flut" reloadable="false" source="org.eclipse.jst.jee.server:flut"/><Context docBase="formlesson2" path="/formlesson2" reloadable="false" source="org.eclipse.jst.jee.server:formlesson2"/><Context docBase="dogage" path="/dogage" reloadable="false" source="org.eclipse.jst.jee.server:dogage"/><Context docBase="contact" path="/contact" reloadable="false" source="org.eclipse.jst.jee.server:contact"/><Context docBase="foward" path="/foward" reloadable="false" source="org.eclipse.jst.jee.server:foward"/><Context docBase="redirect" path="/redirect" reloadable="false" source="org.eclipse.jst.jee.server:redirect"/><Context docBase="requestscope" path="/requestscope" reloadable="false" source="org.eclipse.jst.jee.server:requestscope"/><Context docBase="fortueapp" path="/fortueapp" reloadable="false" source="org.eclipse.jst.jee.server:fortueapp"/></Host>
+      <Context docBase="ejword" path="/ejword" reloadable="false" source="org.eclipse.jst.jee.server:ejword"/></Host>
     </Engine>
   </Service>
 </Server>
